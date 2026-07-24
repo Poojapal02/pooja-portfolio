@@ -1329,14 +1329,13 @@
       padding: 40px 0;
       border-top: 1px solid var(--border-subtle);
     }
-
-    .footer-inner {
+  .footer-inner {
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
+      justify-content: center;
+      gap: 18px;
+  }
 
     .footer-logo {
       font-family: 'JetBrains Mono', monospace;
